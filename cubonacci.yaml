@@ -1,0 +1,13 @@
+cubonacciVersion: alpha1
+description: Quickstarted Cubonacci project
+runtime:
+  name: python
+  version: 3.7.6
+optimization:
+  metric: log_loss
+  type: minimize
+  includeTrainMetrics: false
+validation:
+  type: train-validate
+  shuffle: true
+  validationSize: 20%

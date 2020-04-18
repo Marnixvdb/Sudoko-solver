@@ -1,0 +1,4 @@
+api: true
+schema:
+- name: id
+  type: string
