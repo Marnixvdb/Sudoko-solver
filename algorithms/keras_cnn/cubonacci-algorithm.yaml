@@ -1,4 +1,4 @@
-name: Keras Neural Network
+name: Keras Convolutional Neural Network
 hyperparameters:
 - name: number_neurons_layer_1
   type: int
